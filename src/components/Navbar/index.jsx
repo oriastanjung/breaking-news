@@ -24,7 +24,7 @@ function Navbar() {
       <NavComponent.Toggle aria-controls="basic-navbar-nav" />
       <div className={styles['nav_brand']}>
         <NavLink to="/" className="brand text-decoration-none">
-          N E W S
+          BREAKING NEWS
         </NavLink>
       </div>
       <NavComponent.Collapse
@@ -45,7 +45,7 @@ function Navbar() {
         </Nav>
         <div className={styles['nav_item--center']}>
           <NavLink to="/" className="brand text-decoration-none">
-            N E W S
+            BREAKING NEWS
           </NavLink>
         </div>
         <div className={styles['nav_item--right']}>

@@ -1,12 +1,19 @@
 .navbar--container {
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   padding: 10px 50px;
   border-bottom: 1px solid #c3c0c0;
 }
 .nav_item--left {
-  flex-basis: 50%;
+  flex-basis: 40%;
   gap: 20px;
+}
+
+.nav_item--left a:hover,
+.nav_item--center a:hover,
+.nav_item--right a:hover,
+.nav_brand a:hover {
+  color: var(--blue-2);
 }
 .nav_item--center {
   flex-basis: 30%;
